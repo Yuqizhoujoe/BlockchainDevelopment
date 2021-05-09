@@ -37,6 +37,7 @@ describe('BlockChain', () => {
 
         describe('when the chain starts with the genesis bloc and has multiple blocks', () => {
 
+
             beforeEach(() => {
                 blockChain.addBlock({data: 'Bears'});
                 blockChain.addBlock({data: 'Bears'});
